@@ -9,7 +9,7 @@ const app = express()
 app.use(express.json())
 app.use(
   cors({
-  origin: ["http://localhost:5173", "https://blue-craft-auth.firebaseapp.com", "https://blue-craft-auth.firebasestorage.app", "https://blue-crafts-client-go5tusnlq-md-tanbir-ahmeds-projects.vercel.app/"],
+  origin: ["http://localhost:5173", "https://blue-craft-auth.firebaseapp.com", "https://blue-craft-auth.firebasestorage.app"],
   })
 )
 
